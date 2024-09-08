@@ -1,0 +1,20 @@
+/* Chat.css */
+.Chat-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #000;
+  }
+  
+  .Chat-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .Chat-content {
+    font-size: 1.1em;
+    line-height: 1.5;
+  }
+  
+  /* Add more styles as needed */
+  

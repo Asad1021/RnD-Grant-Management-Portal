@@ -1,0 +1,154 @@
+.Faq-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  /* border: #bdacf5 solid; */
+  /* background-color: #edecf1; */
+}
+
+.Faq-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.accordion-item {
+  width: calc(100% - 40px);
+  max-width: 800px;
+  margin: 0 auto 20px;
+  border: 1px solid #E6E1F7;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordion-item-header {
+  background-color: #E6E1F7;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-item-header:hover {
+  background-color: #bdacf5;
+}
+
+.accordion-item-header.open {
+  background-color: #bdacf5;
+}
+
+.accordion-item-content {
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.Faq-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.question {
+  flex: 1;
+}
+
+.question-image {
+  height: 2px;
+  width: auto;
+  margin-left: 10px;
+}
+
+
+/* For mobile screens */
+@media (max-width: 768px) {
+  .Faq-container {
+    max-width: 100%;
+  }
+  
+  .Faq-title {
+    margin-bottom: 30px;
+  }
+  
+  .accordion-item {
+    width: calc(100% - 20px);
+    max-width: none;
+    margin-bottom: 10px;
+  }
+}
+
+/* For laptop and PC screens */
+@media (min-width: 769px) {
+  .Faq-container {
+    max-width: 100%;
+  }
+  
+  .Faq-title {
+    margin-bottom: 60px;
+  }
+  
+  .accordion-item {
+    width: calc(100% - 40px);
+    max-width: 800px;
+    margin: 0 auto 20px;
+  }
+}
+
+/* Common styles for all screens */
+.Faq-container {
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: #E6E1F7; */
+}
+
+.Faq-title {
+  text-align: center;
+}
+
+.accordion-item {
+  border: 1px solid #E6E1F7;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordion-item-header {
+  background-color: #E6E1F7;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-item-header:hover,
+.accordion-item-header.open {
+  background-color: #bdacf5;
+}
+
+.accordion-item-content {
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.Faq-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.question {
+  flex: 1;
+}
+
+.question-image {
+  height: auto;
+  width: 40px; /* Adjust the width as needed */
+  margin-left: 10px;
+}

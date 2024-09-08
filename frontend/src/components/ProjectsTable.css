@@ -1,0 +1,61 @@
+
+.customTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color:#E6E1F7; 
+    border: 2px solid #ddd; /* Add border to separate cells */
+  
+  }
+  
+  /* Apply styles to table header cells */
+  .custom-table th {
+    padding: 10px; /* Add padding to the header cells */
+    text-align: center; /* Center-align text */
+    background-color: #E6E1F7; /* Light gray background color'' */
+    border: 2px solid #ddd; /* Add border to separate cells */
+    
+  }
+  
+  /* Apply styles to table body cells */
+  .custom-table td {
+    padding: 8px; /* Add padding to the body cells */
+    text-align: center; /* Center-align text */
+    border: 2px solid #ddd; /* Add border to separate cells */
+  }
+  
+
+/* Apply alternating background color to table rows */
+.customTable tr:nth-child() {
+    background-color: #E6E1F7; /* Lighter grey for even rows */
+     border: 1px solid #ddd;
+}
+
+/* Apply hover effect to table rows */
+.customTable tr:hover {
+    background-color: #ddd; /* Darker grey on hover */
+}
+
+/* Glow effect on hover for table headings */
+/* Glow effect on hover for table headings */
+.customTable th:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Glow effect */
+}
+  .tableHeaderCell, .tableBodyCell {
+    padding: 10px; /* Adjusted padding for better spacing */
+    text-align: center;
+    border: 1px solid #ddd;
+    font-weight: bold; /* Bold font for header cells */
+  }
+  
+  .evenRow {
+    background-color: #130936; /* Lighter grey for even rows */
+  }
+  
+  .hoverRow:hover {
+    background-color: #ddd; /* Darker grey on hover */
+  }
+  /* Adjusted font weight and text alignment for header cells */
+.customTable th, .customTable td {
+    font-weight: normal; /* Normal font for body cells */
+    border: 1px solid #ddd;
+}

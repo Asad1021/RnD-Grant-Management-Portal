@@ -1,0 +1,37 @@
+/* CSS for small PC and mobile screens */
+@media (max-width: 768px) {
+  .navbarClass {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .navbarClass .navbar-brand {
+    margin-bottom: 10px; /* Add some space between the logo and text */
+  }
+  
+  .IITText {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+  
+  .navbarClass .navbar-collapse {
+    width: 100%; /* Ensure the collapse menu takes up the entire width */
+  }
+}
+
+
+/* CSS for larger screens */
+@media (min-width: 769px) {
+  .navbarClass {
+    justify-content: space-between; /* Spread the elements evenly */
+    align-items: center;
+  }
+  
+  .navbarClass .navbar-brand {
+    margin-right: 15px; /* Add some space between the logo and text */
+  }
+  
+  .IITText {
+    font-size: 18px; /* Original font size for larger screens */
+  }
+}

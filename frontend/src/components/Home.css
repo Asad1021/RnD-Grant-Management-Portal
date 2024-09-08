@@ -1,0 +1,66 @@
+
+.first {
+  display: flex;
+  background-image: url('../images/neewcoverf.jpg'); 
+  background-color: #1B1340; 
+  background-size: cover;
+  background-position: center;
+
+  
+}
+
+.left-column, .right-column {
+  flex: 1;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  margin-left: 0%;
+  margin-right: 15%;
+  background-color: rgba(133, 131, 138, 0.752); /* Semi-transparent background */
+  border: 0px solid rgba(168, 168, 172, 0.9); /* Transparent border */
+  border-radius: 0px; /* Larger border radius */
+  padding: 40px; /* Increased padding for better spacing */
+  margin-bottom: 20px; /* Increased margin */
+  margin-top: 20px; /* Increased margin */
+}
+
+.left-column {
+  margin-left: 0%;
+  margin-right: 15%;
+  
+  
+}
+
+.right-column {
+  margin-left: 15%;
+  margin-right: 0%;
+  padding-top: 200px;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Center text */
+  /* font-weight: 400; */
+
+}
+.right-column h3 {
+  font-weight: 700; 
+  color: #09031e;
+  font-style: normal;
+  letter-spacing: -1px;
+  font-size: xx-large;
+  
+}
+
+
+@media (max-width: 768px) {
+  .first {
+    flex-direction: column; /* Change the direction to column for small screens */
+  }
+  
+  .left-column {
+    margin-left: 0%;
+    margin-right: 0%; /* Reset right margin for small screens */
+  }
+  
+  .right-column {
+    display: none; /* Hide the right column on small screens */
+  }
+}

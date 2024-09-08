@@ -1,0 +1,28 @@
+{
+  "name": "dep-main",
+  "version": "1.0.0",
+  "description": "Designed a web based application to fullfill the purpose of automated research grant management.Necessary functions such as the generation of summary , commenting on problematic rows, searching etc. were implemented to reduce the human effort involved and to provide a smooth user experience.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd Frontend && npm start",
+    "front": "cd Frontend && npm install",
+    "backend": "cd Backend && npm start",
+    "back": "cd Backend && npm install",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
+    "ins": "concurrently \"npm run front\" \"npm run back\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mui/icons-material": "^5.3.0",
+    "@mui/material": "^5.3.0",
+    "bootstrap": "^5.3.2",
+    "concurrently": "^7.6.0",
+    "react-bootstrap": "^2.1.2",
+    "react-pro-sidebar": "^1.1.0",
+    "react-router-dom": "^6.2.1",
+    "react-toastify": "^8.0.0"
+  }
+}

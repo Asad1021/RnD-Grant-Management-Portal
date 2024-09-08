@@ -1,0 +1,36 @@
+.Call-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.Call-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.phone-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.phone-table th,
+.phone-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.phone-table th {
+  background-color: #f2f2f2;
+}
+
+.phone-table tr:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+.copy-msg {
+  text-align: center;
+  color: green;
+  margin-bottom: 10px;
+}
