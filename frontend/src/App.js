@@ -8,11 +8,10 @@ import Dashboard from "./components/Dashboard";
 import SOE from "./components/SOE";
 import Manageuser from "./components/manageuser";
 import { Footer,Navbar, Sidebar, Help, Faq, Call, Chat} from './container';
-// import { Switch } from "@mui/material";
+
 export const URL=process.env.REACT_APP_SERVER_URL;
 
 function App() {
-  // const [isLogin, setisLogin] = useState(false);
   return (
     
     <HashRouter>
